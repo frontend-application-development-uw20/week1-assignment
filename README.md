@@ -39,7 +39,7 @@
   * Note that you'll need to change the `export default {}` line to export the class instead of an empty object literal.
 
 2. The folder **src/components** contains a file called `DivElement.js`. In this file, create a module that meets the following requirements:
-    * Create a class called `DivElement` that extends the `HTMLElement` class created previously. You'll need to import the class made in step 1.
+    * Create a class called `DivElement` that asdfasdfextends the `HTMLElement` class created previously. You'll need to import the class made in step 1.
     * This class should have a constructor with one parameter: `content`.
     * This class should inherit the render function in the parent class (do not override it, aka define it in `DivElement`).
     * Within `render`, use a template literal to render the element.
