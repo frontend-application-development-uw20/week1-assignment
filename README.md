@@ -8,7 +8,7 @@
    ```bash
    npm install
    ```
-4. Ensure tests can be run. The test suite should fail initially, and the test suite runs both the lint and test commands.
+4. Ensure tests can be run. The test suite shouldasfasdf fail initially, and the test suite runs both the lint and test commands.
    ```bash
    npm test
    ```
