@@ -15,7 +15,7 @@
 5. Use `npm run file --` to run any files independently from the test suite. Example: `npm run file -- ./src/timer/runTimer.js`.
 6. You can use these commands to run the lint and test commands separately:
    ```bash
-   # lint the code
+   # lint the codeasdfasdf
    npm run lint
    # run jest tests in watch mode (handy for updating the code and seeing test results in real time)
    npm run test:watch
