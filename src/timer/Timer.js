@@ -3,8 +3,8 @@ function Timer(seconds) {
 }
 
 Timer.prototype.start = function () {
-  var instance = this;
-  var timerInterval = setInterval(function () {
+  const instance = new Timer();
+  const timerInterval = setInterval(() => {
     if (instance.seconds === 0) {
       clearInterval(timerInterval);
     }
