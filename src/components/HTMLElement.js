@@ -3,6 +3,7 @@ class HTMLElement {
     this.tag = tag;
     this.content = content;
   }
+
   render() {
     const sTag = `<${this.tag}>`;
     const eTag = `</${this.tag}>`;

@@ -1,9 +1,9 @@
-import HTMLElement from "./HTMLElement";
+import HTMLElement from './HTMLElement';
 
 class DivElement extends HTMLElement {
   constructor(content) {
     super(content);
-    this.tag = "div";
+    this.tag = 'div';
     this.content = content;
   }
 }

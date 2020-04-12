@@ -17,6 +17,7 @@ class Timer {
   constructor(seconds) {
     this.seconds = seconds;
   }
+
   start() {
     //    * Refactor the code to use `let/const`.
     //    * Refactor the code to avoid assigning `this` to a variable.
@@ -32,4 +33,5 @@ class Timer {
     }, 1000);
   }
 }
+
 export default Timer;
