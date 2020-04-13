@@ -10,8 +10,5 @@ class HTMLElement {
   }
 }
 
-// const htmlElement = new HTMLElement('p', 'Hello World!');
-// console.log(htmlElement.render());
-
 // Export class here
 export { HTMLElement as default };

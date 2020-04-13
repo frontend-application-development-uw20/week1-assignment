@@ -9,8 +9,6 @@ class DivElement extends HTMLElement {
   }
 }
 
-const message = new DivElement('It\'s a beautiful life');
-console.log(message.render());
 
 // Export class here
 export { DivElement as default };
