@@ -9,6 +9,7 @@ describe('DivElement class', () => {
   });
 
   it('should be a class with the name DivElement', () => {
+    console.log(instance);
     expect(instance.constructor.name).toContain('DivElement');
   });
 
