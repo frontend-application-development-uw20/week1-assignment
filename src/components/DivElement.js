@@ -8,7 +8,6 @@ class DivElement extends HTMLElements {
     this.content = content;
     this.tag = 'div';
   }
-
 }
 // Export class here
 export default DivElement;
