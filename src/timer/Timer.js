@@ -1,17 +1,15 @@
+let nseconds;
 function Timer(seconds) {
-  this.seconds = seconds;
+  nseconds = seconds;
 }
-
-Timer.prototype.start = function () {
-  var instance = this;
-  var timerInterval = setInterval(function () {
-    if (instance.seconds === 0) {
+Timer.prototype.start = (() => {
+  const timerInterval = setInterval(() => {
+    if (nseconds === 0) {
       clearInterval(timerInterval);
     }
-
-    console.log(instance.seconds);
-    instance.seconds -= 1;
+    console.log(nseconds);
+    nseconds -= 1;
   }, 1000);
-};
+});
 
 export default Timer;
